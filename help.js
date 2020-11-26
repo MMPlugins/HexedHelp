@@ -1,6 +1,11 @@
 module.exports = function({bot, commands, config}){
-    const lang = require(`./lang/${config.lang}.json`);
-    commands.addInboxServerCommand("help", [], async (msg) => {
+    if (typeof config.lang === "undefined") {
+        var lang = require("./lang/en.json");
+    } else if (config.lang == `${config.lang}`) {
+        var lang = require(`./lang/${config.lang}.json`);
+    }
+    bot.on("messageCreate", (msg) => { 
+        if(msg.content === `${config.prefix}help`) { 
             bot.createMessage(msg.channel.id, {
                 embed: {
                     title: `${lang.thread.title}`, 
@@ -12,8 +17,11 @@ module.exports = function({bot, commands, config}){
                             value: `***${config.prefix}newthread <userID>*** - ${lang.global.newthread}\n***${config.prefix}logs <userID>*** - ${lang.global.glogs}\n***${config.prefix}block <userID>*** - ${lang.global.block}\n***${config.prefix}unblock*** - ${lang.global.unblock}\n***${config.prefix}is_blocked*** - ${lang.global.is_blocked}\n***${config.prefix}role*** - ${lang.global.role}\n***${config.prefix}role <role name>*** - ${lang.global.role2}\n***${config.prefix}version*** - ${lang.global.version}`, // Field
                             inline: false 
                         }
-                    ]
+                    ],
                 }
             });
-        });
-    }
+        }
+    });
+
+
+}
