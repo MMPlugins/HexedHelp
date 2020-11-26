@@ -4,7 +4,7 @@ module.exports = function({bot, commands, config}){
     } else if (config.lang == `${config.lang}`) {
         var lang = require(`./lang/${config.lang}.json`);
     }
-    bot.on("messageCreate", (msg) => { 
+    commands.addInboxServerCommand("help", [], async (msg) => {
         if(msg.content === `${config.prefix}help`) { 
             bot.createMessage(msg.channel.id, {
                 embed: {
