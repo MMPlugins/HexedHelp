@@ -1,0 +1,37 @@
+{
+    "thread": {
+        "title": "ModMail Bot Commands",
+        "reply": "Send a reply to the user.",
+        "areply": "Send an anonymous reply to the user. Anonymous replies only show the moderator's role in the reply.",
+        "close": "Close a thread.  Include <time> to delay close or leave out to close immediately.",
+        "closecancel": "Cancel a timed close.",
+        "logs": "List previous Modmail logs with the user.",
+        "block": "Block the user from using Modmail.",
+        "unblock": "Block the user from using Modmail for a specified time.",
+        "move": "Move the Modmail thread to a different category. Requires allowMove to be enabled in the bot's settings.",
+        "suspend": "Unblock the user, allowing them to use Modmail again.",
+        "unsuspend": "Unsuspend the thread. See suspend above.",
+        "alert": "Pings you when the thread gets a new reply. Add cancel to cancel!",
+        "edit": "Edit your own previous reply sent with reply. <number> is the message number shown in front of staff replies in the thread channel.",
+        "msgdelete": "Delete your own previous reply sent with reply. <number> is the message number shown in front of staff replies in the thread channel.",
+        "displayrole": "View your display role for the thread - the role that is shown in front of your name in your replies. Add reset at end to reset to default",
+        "loglink": "Get a link to the open Modmail thread's log.",
+        "sloglink": "Thread log, Only showing message to/from user (Ignores mod chatter within thread)",
+        "vloglink": "Get a link to the open Modmail thread's log, showing extra details about channel and message IDs between the bot and the user. This is mainly useful when reporting messages to Discord's Trust & Safety team.",
+        "id": "Prints the user's ID.",
+        "dmcid": "Prints the ID of the current DM channel with the user",
+        "message": "Shows the DM channel ID, DM message ID, and message link of the specified user reply. <number> is the message number shown in front of staff replies in the thread channel"
+    },
+    "global": {
+        "title": "Global ModMail Bot Commands",
+        "newthread": "Open a Modmail thread with a user.",
+        "glogs": "List previous Modmail logs with the specified user.",
+        "block": "Block the specified user from Modmail. Add time to specify a time.",
+        "unblock": "Unblock the specified user, allowing them to use Modmail again.",
+        "is_blocked": "Check if the specified user is blocked.",
+        "role": "View your default display role - the role that is shown in front of your name in replies. Add reset to the default display role.",
+        "role2": "Change your default display role to any role you currently have.",
+        "version": "Show the Modmail bot's version."
+    }
+
+}
