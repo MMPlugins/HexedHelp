@@ -1,0 +1,37 @@
+{
+  "thread": {
+    "title": "ModMail Bot Befehle in einem Ticket-Channel",
+    "reply": "Schickt eine Antwort an den Nutzer.",
+    "areply": "Schickt eine anonyme Antwort an den Nutzer. In anonymen Antworten wird nur die Rolle des Moderators angezeigt.",
+    "close": "Schließt ein Ticket. Nutze optional noch den Parameter <time>, um das Schließen zu Verzögern.",
+    "closecancel": "Bricht einen geplanten Ticket-Schluss ab.",
+    "logs": "Zeigt vorherige Gespräche mit dem Nutzer an.",
+    "block": "Sperrt den Benutzer von Modmail.",
+    "unblock": "Sperrt den Benutzer für eine bestimmte Zeit von Modmail.",
+    "move": "Verschiebt den Ticket-Channel in eine andere Kategorie. allowMove muss in den Einstellungen des Bots aktiviert sein.",
+    "suspend": "Setzt ein Ticket aus. Aussetzen bedeutet, dass das Ticket sich wie geschlossen verhält, aber der Channel nicht gelöscht wird.",
+    "unsuspend": "Stellt ein geschlossenes Ticket wieder her",
+    "alert": "Erwähnt dich immer, wenn eine neue Nachricht vom Benutzer kommt. Füge 'cancel' daran und !",
+    "edit": "Editiert eine von dir gesendete Antwort. Der Parameter <number> ist die Nummer, die vor deiner Antwort angezeigt wird.",
+    "msgdelete": "Löscht eine von dir gesendete Antwort. Der Parameter <number> ist die Nummer, die vor deiner Antwort angezeigt wird.",
+    "displayrole": "Zeigt dir deine Anzeige-Rolle für das Ticket an. Diese Rolle wird immer vor deinem Namen angezeigt. Als ersten Parameter kannst du eine andere Rolle angeben, dann wird die Änderung übernommen. Wenn du reset benutzt, wird die Rolle zurückgesetzt",
+    "loglink": "Schickt dir einen Link, um die Logs von Modmail zu öffnen.",
+    "sloglink": "Schickt dir einen Link zu einem Log, in dem nur Nachrichten an und von dem Benutzer angezeigt werden. (Ignoriert Kommentare von Mods im Ticket)",
+    "vloglink": "Schickt dir einen Link zu einem Log, in dem weitere Informationen (z.B. Nachrichten-IDs) gespeichert wurden. Das ist vor allem nützlich, um Nachrichten an Discord's Trust & Safety Team zu melden.",
+    "id": "Zeigt die ID des Benutzers an.",
+    "dmcid": "Prints the ID of the current DM channel with the user",
+    "message": "Zeigt dir die IDs des DM-Kanals, der DM-Nachricht und einen Link zu der Antwort. Der Parameter <number> ist die Nummer, die vor deiner Antwort angezeigt wird"
+  },
+  "global": {
+    "title": "ModMail Bot Commands",
+    "newthread": "Öffnet ein neues Modmail-Ticket mit einem Nutzer",
+    "glogs": "Zeigt dir vorherige Tickets mit einem Nutzer an.",
+    "block": "Sperrt den Benutzer von Modmail. Mit dem Parameter time kannst du die Länge der Sperrung angeben.",
+    "unblock": "Entsperrt einen Benutzer von Modmail.",
+    "is_blocked": "Schaut, ob ein Nutzer gesperrt ist.",
+    "role": "Zeigt dir deine Anzeige-Rolle für das Ticket an. Diese Rolle wird immer vor deinem Namen angezeigt. Wenn du reset benutzt, wird die Rolle zurückgesetzt",
+    "role2": "Ändert deine Anzeige-Rolle zu einer deiner Rollen.",
+    "version": "Zeigt dir die Version von Modmail an."
+  }
+
+}
