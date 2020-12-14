@@ -28,5 +28,7 @@ Use [prefix]help (by default, your prefix is !) and watch the magic!
 
 ### Currently suppoted lanaguages ###
 
+```
 English - en
 German - de
+```
