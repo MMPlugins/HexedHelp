@@ -4,8 +4,15 @@
 Make sure your running at least v3.0.3 of Modmail.
 in your config.ini file, make a new line and add:  
 ```ini
-plugins[] = npm:MMPlugins/HexedHelp
+plugins[] = npm:MMPlugins/HexedHelp#experimental
+extraIntents[] = guildMessageReactions
 ```
+Add the dependencies:
+```bash
+npm i eris-pagination --force
+npm i https://github.com/karsh-kay/eris-reactions
+```
+
 
 Restart your bot!
 
@@ -21,4 +28,5 @@ Use [prefix]help (by default, your prefix is !) and watch the magic!
 
 ### Currently suppoted lanaguages ###
 
-English - en.json
+English - en
+German - de
