@@ -26,7 +26,7 @@ lang = filename
 And that's it!
 Use [prefix]help (by default, your prefix is !) and watch the magic!
 
-### Currently suppoted lanaguages ###
+### Currently supported lanaguages ###
 
 ```
 English - en
