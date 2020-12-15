@@ -1,6 +1,7 @@
 {
   "thread": {
     "title": "ModMail Bot Befehle in einem Ticket-Channel",
+    "title2": "ModMail Bot Befehle in einem Ticket-Channel",
     "reply": "Schickt eine Antwort an den Nutzer.",
     "areply": "Schickt eine anonyme Antwort an den Nutzer. In anonymen Antworten wird nur die Rolle des Moderators angezeigt.",
     "close": "Schließt ein Ticket. Nutze optional noch den Parameter <time>, um das Schließen zu Verzögern.",
