@@ -30,8 +30,6 @@ commands.addInboxServerCommand("help", [], async (message) => {
                 startPage: 1
             }
         );
-        /* paginatedEmbed ⇨ Eris.Message */
-        
     }
 });
 
