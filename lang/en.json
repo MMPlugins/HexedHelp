@@ -10,7 +10,7 @@
         "block": "Block the user from using Modmail.",
         "unblock": "Block the user from using Modmail for a specified time.",
         "move": "Move the Modmail thread to a different category. Requires allowMove to be enabled in the bot's settings.",
-        "suspend": "Unblock the user, allowing them to use Modmail again.",
+        "suspend": "Suspends a thread. A suspended thread will behave as it's closed but the bot doesn't delete the channel.",
         "unsuspend": "Unsuspend the thread. See suspend above.",
         "alert": "Pings you when the thread gets a new reply. Add cancel to cancel!",
         "edit": "Edit your own previous reply sent with reply. <number> is the message number shown in front of staff replies in the thread channel.",

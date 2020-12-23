@@ -3,9 +3,5 @@
   "author": "Proximity#1337",
   "version": "1.0.0",
   "description": "A help command for Dragory's modmail.",
-  "main": "./help.js",
-  "dependencies": {
-    "eris-pagination": "github:hexed/eris-pagination",
-    "eris-reactions": "github:karsh-kay/eris-reactions"
-  }
+  "main": "./help.js"
 }
