@@ -20,11 +20,9 @@ commands.addInboxServerCommand("help", [], async (message) => {
             myEmbeds, 
             {
                 showPageNumbers: true,
-                extendedButtons: false,
+                extendedButtons: true,
                 maxMatches: 10,
                 timeout: 150000,
-                backButton: '◀',
-                forthButton: '▶',
                 deleteButton: '💩',
                 startPage: 1
             }
