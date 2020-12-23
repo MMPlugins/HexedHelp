@@ -4,7 +4,9 @@
 Make sure your running at least v3.0.3 of Modmail.
 in your config.ini file, make a new line and add:  
 ```ini
+
 plugins[] = npm:MMPlugins/HexedHelp
+extraIntents[] = guildMessageReactions
 ```
 
 Restart your bot!
@@ -19,6 +21,10 @@ lang = filename
 And that's it!
 Use [prefix]help (by default, your prefix is !) and watch the magic!
 
-### Currently suppoted lanaguages ###
+### Currently supported lanaguages ###
 
-English - en.json
+
+```
+English - en
+German - de
+```
