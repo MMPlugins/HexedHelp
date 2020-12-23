@@ -1,6 +1,6 @@
 module.exports = function({bot, commands, config, message}){
 
-    const EmbedPaginator = require('./node_modules/eris-pagination');
+    const EmbedPaginator = require('github:hexed/eris-pagination');
     if (typeof config.lang === "undefined") {
         var lang = require("./lang/en.json");
     } else if (config.lang == `${config.lang}`) {
