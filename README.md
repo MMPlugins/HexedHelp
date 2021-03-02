@@ -8,9 +8,10 @@ in your config.ini file, make a new line and add:
 plugins[] = npm:MMPlugins/HexedHelp
 extraIntents[] = guildMessageReactions
 ```
+Stop your bot.  
+Run `npm install eris-pagination` in the bots directory.  
 
-Restart your bot!
-
+Restart your bot!  
 If you'd like to add a language add this line of text to the config file. And copy the contents of en.json and modify it to your language.
 
 
