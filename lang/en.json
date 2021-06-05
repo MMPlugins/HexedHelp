@@ -2,7 +2,6 @@
     "thread": {
         "title": "ModMail Bot Commands page 1",
         "title2": "ModMail Bot Commands page 2",
-        "title3": "ModMail Bot Global Commands",
         "reply": "Send a reply to the user.",
         "areply": "Send an anonymous reply to the user. Anonymous replies only show the moderator's role in the reply.",
         "close": "Close a thread.  Include <time> to delay close or leave out to close immediately.",
